@@ -1,0 +1,94 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+
+body {
+    padding: 10px 80px;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+nav a {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px; 
+}
+
+nav .wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+button {
+    padding: 15px 25px;
+    background: white;
+    border: 1px solid #ccc;
+    font-weight: bolder;
+    border-radius: 5px;
+    
+}
+button.orange {
+    color: white;
+    background: #FF9900;
+}
+
+button.transparant-btn {
+    border: none;
+    background: transparent;
+    color: #FF9900;
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+
+}
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 15px;
+}
+#content >.wrapper {
+    max-width: 1000px;
+
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+.container-first {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    padding-right: 30px;
+    
+}
+
+footer a {
+    padding: 10px 80px;
+    text-decoration: none;
+
+    
+}
