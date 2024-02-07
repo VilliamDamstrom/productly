@@ -2,6 +2,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
+    width: 1000px;
 
 }
 
@@ -23,6 +24,7 @@ nav .wrapper {
     display: flex;
     gap: 20px;
     align-items: center;
+
 }
 
 button {
@@ -39,10 +41,14 @@ button.orange {
 }
 
 button.transparant-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
     border: none;
     background: transparent;
     color: #FF9900;
     text-decoration: underline;
+
 }
 
 header {
@@ -54,12 +60,17 @@ header {
 
 }
 h2 {
-    font-size: 50px;
+    font-size: 45px;
 }
 
 p {
     font-size: 15px;
 }
+
+h3 {
+    font-size: 20px;
+}
+
 #content >.wrapper {
     max-width: 1000px;
 
@@ -68,6 +79,8 @@ p {
 #content {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-first {
@@ -88,7 +101,53 @@ p {
 
 footer a {
     padding: 10px 80px;
-    text-decoration: none;
+    text-decoration: none;   
+}
 
+.container-second {
+    display: flex;
+    margin-top: 100px;
+}
+
+.container-third {
+    display: flex;
+    margin-top: 100px;
+}
+
+.container-fourth {
+    display: flex;
+    margin-top: 100px;
+}
+
+.text.right {
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+.flex-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer.wrapper {
+    display: flex;
+    padding-top: 50px;
+    border-top: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+input {
+    padding: 3px;
+    margin-bottom: 3px;
     
+}
+
+button.small {
+    padding: 7px 10px;
 }
